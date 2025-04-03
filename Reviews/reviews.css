@@ -1,0 +1,133 @@
+.review{
+    margin-top:  10px;
+}
+.review .heading {
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 2000;
+    font-size: 60px;
+    color: #617a05;
+    text-decoration: none; 
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    min-height: 10vh;
+}
+.review .heading span{
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 2000;
+    font-size: 60px;
+    color: #8bac16;
+    text-decoration: none; 
+    background-color:rgb(255, 255, 255);
+}
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1,);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+}
+.review .box-container .box .customerquote{
+    position: relative;
+    bottom: 3rem; right: 3rem;
+    font-size: 6rem;
+    color: #eee;
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.review .box-container .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color: #333;
+}
+.review .box-container .box p{
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .review .heading {
+        font-size: 50px;
+    }
+    .review .heading span {
+        font-size: 50px;
+    }
+    .review .box-container {
+        gap: 1rem;
+    }
+    .review .box-container .box {
+        padding: 2.5rem 1.5rem;
+    }
+    .review .box-container .box .customerquote {
+        font-size: 5rem;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .review .heading {
+        font-size: 42px;
+    }
+    .review .heading span {
+        font-size: 42px;
+    }
+    .review .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .review .box-container .box {
+        width: 80%;
+        padding: 2rem;
+    }
+    .review .box-container .box .customerquote {
+        font-size: 4.5rem;
+    }
+    .review .box-container .box .user h3 {
+        font-size: 1.8rem;
+    }
+    .review .box-container .box p {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .review .heading {
+        font-size: 36px;
+    }
+    .review .heading span {
+        font-size: 36px;
+    }
+    .review .box-container .box {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    .review .box-container .box .customerquote {
+        font-size: 4rem;
+    }
+    .review .box-container .box .user h3 {
+        font-size: 1.6rem;
+    }
+    .review .box-container .box p {
+        font-size: 1.2rem;
+    }
+    .review .box-container .box .user img {
+        height: 5rem;
+        width: 5rem;
+    }
+}

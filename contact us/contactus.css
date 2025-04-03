@@ -1,0 +1,83 @@
+
+.contact{
+    min-height: 50vh;
+}
+.contact .heading{
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 2000;
+    font-size: 60px;
+    color: #8aabd4;
+    text-decoration: none; 
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    min-height: 10vh;
+}
+
+.contact .heading span{
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 2000;
+    font-size: 60px;
+    color: #1d5f85;
+    text-decoration: none; 
+    background-color:rgb(255, 255, 255);
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%;
+    padding: 20px;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+}
+
+.email, .phonenumber, .hate {
+    margin-bottom: 15px;
+}
+input[type="email"],
+input[type="phonenumber"],
+input[type="text"] {
+    width: 100%; 
+    padding: 15px; 
+    font-size: 18px;
+    border-radius: 5px; 
+    border: 2px solid #ccc; 
+    box-sizing: border-box; 
+}
+
+.imagewrap {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    width: 35%; 
+}
+
+.image {
+    width: 55%;
+    background: none;
+}
+
+
+.form-inline button{
+    align-self: flex-start;
+    width: 190px;
+    background-color: deeppink;
+}
+.form-inline button:hover{
+    background-color: rgb(255, 174, 217);
+}
+
+@media (max-width: 800px) {
+.form-inline input {
+margin: 10px 0;
+}
+.form-inline {
+flex-direction: column;
+align-items: stretch;
+}
+}

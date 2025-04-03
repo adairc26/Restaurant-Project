@@ -1,0 +1,47 @@
+.Aboutus {
+    min-height: 100vh;
+}
+
+.Aboutus .aboutussection {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.AboutUs .aboutusdetials {
+    align-items: center;
+    min-height: 75vh;
+    text-align: left;
+    justify-content: center;
+    padding: 50px 20px;
+    width: 100%;
+    background-color: rgb(201, 193, 182);
+}
+
+.AboutUs .aboutusdetials .abttitle {
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 2000;
+    font-size: 50px;
+    color: #552c2c;
+    text-decoration: none;
+    background-color: rgb(201, 193, 182);
+}
+
+.AboutUs .aboutusdetials .abtsubtitle {
+    font-family: "Playwrite Magyarország", sans-serif;
+    font-weight: 1100;
+    font-size: 25px;
+    color: #443d3d;
+    text-decoration: none;
+    margin-top: 8px;
+    max-width: 70%;
+    background-color: rgb(201, 193, 182);
+}
+
+.AboutUs .aboutusdetials .abtdescription {
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: 17px;
+    background-color: rgb(201, 193, 182);
+}
